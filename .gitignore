@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data files (track with DVC, not Git)
+data/raw/*.csv
+data/processed/*.csv
+*.pkl
+
+# .dvc/ directory and .dvc files are tracked by Git
+!.dvc/
+!*.dvc
+
+# Models
+models/
+*.pth
+*.h5
+*.joblib
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+logs/
+*.log
