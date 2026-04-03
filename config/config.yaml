@@ -1,0 +1,9 @@
+seed: 42
+algorithm: "UCS"
+experiment_name: "warehouse_robot_v1"
+grid_template: |
+ S . . X .
+  . P . X .
+  . . . . .
+  X . P . .
+  . . . D .
